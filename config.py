@@ -11,19 +11,19 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "8180190500:AAGDViHIJDeMb0LBQfTls_up7hy4vKcm3F8")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", "23432718"))
+APP_ID = int(os.environ.get("APP_ID", ""))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "593fe8c703eac6d6586e7bbdfb9a35b4")
+API_HASH = os.environ.get("API_HASH", "b4")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002271697975"))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", "7911798212"))
+OWNER_ID = int(os.environ.get("OWNER_ID", "2"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
@@ -33,7 +33,7 @@ FILE_AUTO_DELETE = int(os.environ.get("FILE_AUTO_DELETE", "3600")) # auto delete
 
 
 #Database 
-DB_URI = os.environ.get("DATABASE_URL", "mongodb+srv://franky:23032020@cluster0.jo6xy.mongodb.net/?retryWrites=true&w=majority")
+DB_URI = os.environ.get("DATABASE_URL", ")
 DB_NAME = os.environ.get("DATABASE_NAME", "Clustero") # Don't Change Database Name
 
 #force sub channel id, if you want to enable force sub (Use different ForceSub Channel ID)
